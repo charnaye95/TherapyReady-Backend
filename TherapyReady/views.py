@@ -21,3 +21,5 @@ class TherapistDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Therapist.objects.all()
     serializer_class = TherapistSerializer
 
+def homepage(request):
+    return render(request, 'TherapyReady/homepage.html')
