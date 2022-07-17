@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Clinic(models.Model):
+    image = models.TextField(default='')
     name = models.CharField(max_length=100)
     street_number_and_name = models.CharField(max_length=100)
     city =  models.CharField(max_length=100)

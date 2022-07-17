@@ -11,7 +11,7 @@ class ClinicSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Clinic
-        fields = ('name', 'street_number_and_name', 'city', 'state', 'phone_number', 'support_groups', )
+        fields = ('image', 'name', 'street_number_and_name', 'city', 'state', 'phone_number', 'support_groups', )
 
 class TherapistSerializer(serializers.ModelSerializer):
     class Meta:
