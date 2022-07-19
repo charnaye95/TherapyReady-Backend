@@ -16,4 +16,4 @@ class ClinicSerializer(serializers.ModelSerializer):
 class TherapistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Therapist
-        fields = ('clinic', 'name', 'bio', 'image', 'license', 'specialty', 'insurance_taken', 'price_range', 'sliding_scale', 'email', )
+        fields = ('clinic', 'name', 'bio', 'image', 'city', 'license', 'specialty', 'insurance_taken', 'price_range', 'sliding_scale', 'virtual', 'email', )

@@ -18,11 +18,13 @@ class Therapist(models.Model):
     name = models.CharField(max_length=100)
     bio = models.TextField()
     image = models.TextField()
+    city =  models.CharField(max_length=100, default="")
     license = models.CharField(max_length=100)
     specialty = models.CharField(max_length=100)
     insurance_taken = models.TextField()
     price_range = models.CharField(max_length=100)
     sliding_scale = models.BooleanField()
+    virtual = models.BooleanField(default=False)
     email = models.EmailField()
 
     def __str__(self):
