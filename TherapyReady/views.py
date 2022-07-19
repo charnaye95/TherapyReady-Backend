@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from .models import Clinic, Therapist
-from rest_framework import generics
+from rest_framework import generics, permissions
 from .serializers import ClinicSerializer, TherapistSerializer
 
 # Create your views here.
@@ -23,3 +23,13 @@ class TherapistDetail(generics.RetrieveUpdateDestroyAPIView):
 
 def homepage(request):
     return render(request, 'TherapyReady/homepage.html')
+
+class ClinicListProtected(generics.ListCreateAPIView):
+    queryset = Clinic.objects.all()
+    serializer_class = ClinicSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+class TherapistListProtected(generics.ListCreateAPIView):
+    queryset = Therapist.objects.all()
+    serializer_class = TherapistSerializer
+    permission_classes = [permissions.IsAuthenticated]

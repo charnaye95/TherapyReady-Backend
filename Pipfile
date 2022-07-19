@@ -11,6 +11,7 @@ whitenoise = "*"
 dj-database-url = "*"
 gunicorn = "*"
 django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
