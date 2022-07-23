@@ -3,7 +3,7 @@
 [Link Deployed on Heroku](https://therapyready-backend.herokuapp.com/)
  
 ## Screenshots of the app
-![Clinics]
+
 (/Users/charnaye95/Downloads/Clinics - backend.png "Clinics-backend")
 <br>
 ![Therapists]
