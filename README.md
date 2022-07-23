@@ -4,7 +4,7 @@
  
 ## Screenshots of the app
 
-! [Clinics](/Users/charnaye95/Downloads/Clinics - backend.png "Clinics-backend")
+![Clinics](/Users/charnaye95/Downloads/Clinics - backend.png "Clinics-backend")
 <br>
 ![Therapists](/Users/charnaye95/Downloads/Therapists - backend.png "Therapists-backend")
  
