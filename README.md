@@ -17,7 +17,7 @@ Python, Django, Django Rest Frameworks
 This application is part 1 of 2 of a full stack project. It holds the API for clinics and therapists within an area. A superuser was created and can be used in admin. The hope is to add clinics and therapists information with their prermission and fill up the database for people to use the site as a great resource.
 
 
-## List of Features / User Stories
+## User Stories
 
 A user could create, read, update, and delete information from the database.
 
