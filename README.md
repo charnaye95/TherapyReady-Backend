@@ -24,6 +24,7 @@ A user could create, read, update, and delete information from the database.
 ## Stretch Goals and Major Hurdles
 
 <ul>
+<li>I would like to add user authentication from Django.</li>
 <li>One major hurdle was trying to access the id of my objects. I didn't specifically put it in my models because Django is supposed to provide that. And they do, but I found out that you have to add it as a field to your serializers for it to show up.</li>
 <li>A stretch goal would to be to change persmissions to only allow admins with a login to be able to CRUD information from the database.</li>
 </ul>
