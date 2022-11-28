@@ -1,6 +1,6 @@
 # TherapyReady - Backend App
  
-[Link Deployed on Railway](https://therapyready-backend.up.railway.app/)
+[Link Deployed on Heroku](https://therapyready-backend.herokuapp.com)
  
 ## Screenshots of the app
 <br>
