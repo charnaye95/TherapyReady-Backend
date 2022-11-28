@@ -1,2 +1,2 @@
 # Replace example_django with your project root name:
-web: gunicorn TherapyReady_Backend.wsgi --log-file -
+web: gunicorn TherapyReady_Backend.wsgi
